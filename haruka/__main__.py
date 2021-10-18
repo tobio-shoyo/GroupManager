@@ -33,7 +33,7 @@ Click /help or Help button below to find out more about how to use me to my full
 
  Add me to a group by clicking [here](http://t.me/tg_GroupManagerBot?startgroup=true).
 """
-(https://telegra.ph/file/2291942331f135e3292ee.png)
+
 
 IMPORTED = {}
 MIGRATEABLE = []
