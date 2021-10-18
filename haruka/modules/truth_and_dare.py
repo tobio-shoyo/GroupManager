@@ -5,12 +5,10 @@ from haruka import dispatcher
 from telegram import ParseMode, Update, Bot
 from haruka.modules.disable import DisableAbleCommandHandler
 
-@run_async
 def truth(update: Update, context: CallbackContext):
     args = context.args
     update.effective_message.reply_text(random.choice(truth_and_dare_string.TRUTH))
 
-@run_async
 def dare(update: Update, context: CallbackContext):
     args = context.args
     update.effective_message.reply_text(random.choice(truth_and_dare_string.DARE))
