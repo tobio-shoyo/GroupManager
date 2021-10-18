@@ -149,7 +149,7 @@ def send_start(bot, update):
     first_name = update.effective_user.first_name 
     text = PM_START
     keyboard = [[InlineKeyboardButton(text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/ShouyouROBOT?startgroup=true")]],
-    keyboard = [[InlineKeyboardButton(text="🇮🇳 Language", url="t.me/ShouyouROBOT?startgroup=true")]]
+    keyboard = [[InlineKeyboardButton(text="🇮🇳 Language", callback_data="set_lang_")]]
     keyboard += [[InlineKeyboardButton(text="🛠 Reporting", callback_data="cntrl_panel_M"), 
         InlineKeyboardButton(text="❔ Help", callback_data="help_back")]]
 
